@@ -1,0 +1,13 @@
+Databases:
+    temp_protocol: ./{uri}.wav
+
+Protocols:
+  temp_protocol:
+    SpeakerDiarization:
+      All:
+        train:
+          uri: ./temp.lst
+          annotated: ./temp.uem
+        test:
+          uri: ./temp.lst
+          annotated: ./temp.uem
